@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Web App</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Teacher Dashboard</h1>
+    </header>
+    
+    <main>
+        <section id="notes">
+            <h2>Notes</h2>
+            <textarea id="notes-area" placeholder="Type your notes here..."></textarea>
+        </section>
+
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <div id="calendar-container"></div> 
+        </section>
+
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <textarea id="schedule-area" placeholder="Enter your schedule here..."></textarea>
+        </section>
+    </main>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
